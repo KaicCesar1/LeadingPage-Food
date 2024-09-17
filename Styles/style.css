@@ -11,6 +11,10 @@ body {
     background-color: #fff9ea;
 }
 
+section {
+    padding: 28px 8%;
+}
+
 .btn-default {
     border: none;
     display: flex;
