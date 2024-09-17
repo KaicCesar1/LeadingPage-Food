@@ -32,3 +32,11 @@ section {
 .btn-default:hover {
     background-color: #f8d477;
 }
+
+.section-title {
+    color: #e9a209;
+}
+
+.section-subtitle {
+    font-size: 2.1875rem;
+}
