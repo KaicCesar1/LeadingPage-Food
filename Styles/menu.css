@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 100vh;
 }
 
 #dishes {
@@ -65,7 +64,17 @@
     }
 
     .dish {
-        width: calc(50% - 12px);
+        width: calc(50% - 54px);
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    .dish {
+        width: 100%;
+    }
+
+    #menu .section-subtitle {
+        text-align: center;
+    }
 }
