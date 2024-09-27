@@ -19,6 +19,10 @@ header {
     color: #cda631;
 }
 
+#nav-logo:hover {
+    cursor: pointer;
+}
+
 #nav-list {
     display: flex;
     list-style: none;
